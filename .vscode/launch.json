@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Main menu", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "Train everything (run_all)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_all.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "Interactive predict", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/prediction/predict.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "Simulate traffic", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/simulation/simulate_traffic.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}"}
+  ]
+}

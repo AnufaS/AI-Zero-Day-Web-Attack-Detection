@@ -1,0 +1,35 @@
+{
+  "classifier": {
+    "accuracy": 0.8842,
+    "precision_macro": 0.9563,
+    "recall_macro": 0.8446,
+    "f1_macro": 0.8796,
+    "false_negatives": 107,
+    "false_positives": 2
+  },
+  "anomaly_detector": {
+    "precision": 0.9823,
+    "recall": 0.7524,
+    "f1": 0.8521,
+    "false_positive_rate": 0.0165,
+    "false_negative_rate": 0.2476,
+    "roc_auc": 0.9666,
+    "threshold": 0.8
+  },
+  "unseen_attack_experiment": {
+    "unseen_class": "COMMAND_INJECTION",
+    "n_unseen": 621,
+    "flagged_not_normal": 0.9968,
+    "flagged_possible_unknown": 0.9082,
+    "false_alarm_rate_normal": 0.0165,
+    "mean_anomaly_unseen": 0.984,
+    "mean_anomaly_normal": 0.12
+  },
+  "full_pipeline": {
+    "precision": 0.9812,
+    "recall": 0.9091,
+    "f1": 0.9438,
+    "false_positive_rate": 0.0212,
+    "false_negative_rate": 0.0909
+  }
+}

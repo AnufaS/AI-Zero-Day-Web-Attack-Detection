@@ -1,0 +1,7 @@
+{
+  "weights": {
+    "attack": 0.55,
+    "anomaly": 0.3,
+    "behaviour": 0.15
+  }
+}

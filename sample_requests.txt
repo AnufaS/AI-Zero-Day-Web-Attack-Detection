@@ -1,0 +1,10 @@
+# one request per line, optional "GET " / "POST " prefix
+/
+/products?id=10
+/search?q=laptop+bag
+/login?username=admin' OR '1'='1
+/search?q=<script>alert(1)</script>
+/products?file=../../../etc/passwd
+/search?q=phone; ls -la
+/search?q={{7*7}}
+POST /login?username=alice&password=wrong
